@@ -5,13 +5,19 @@
     flex-wrap: wrap;
 }
 .class1{
-    display: flex;
     place-content: center;
+    justify-items: center;
 }
 section{
-    height: 100vh;
+    height: 90%;
     background-color: rgb(7, 0, 24);
     padding-top: 70px;
+}
+nav{
+    background-color: rgba(95, 50, 218, 0.24);
+    width: 900px;
+    height: 70px;
+    border-radius: 10px;
 }
 .nav1{
     display: flex;
@@ -26,12 +32,6 @@ section{
 .first{
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-nav{
-    background-color: rgba(95, 50, 218, 0.24);
-    width: 900px;
-    height: 70px;
-    border-radius: 10px;
 }
 .div1{
     display: flex;
@@ -54,26 +54,25 @@ a{
     border-radius: 17px;
 }
 footer{
-    background-color: rgb(24, 9, 90);
-    color: white;
+    background-color: rgb(112, 102, 160);
+    color: yellow;
 }
 .logo2{
     width: 350px;
     height: 350px;
 }
 .img{
-    display: flex;
+    text-align: center;
     place-content: center;
     margin-top: 5px;
 }
 h2{
     color: rgb(255, 255, 255);
-    display: flex;
+    text-align: center;
     place-content: center;
 }
 .text{
     color: rgb(255, 255, 255);
-    margin-top: 20px;
     font-size: 18px;
     padding-left: 270px;
     padding-right: 270px;
@@ -83,15 +82,15 @@ h2{
 .button{
     display: flex;
     place-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
     gap: 25px;
 }
 .enter{
+    align-content: center;
     width: 90px;
     height: 35px;
     background-color: rgb(29, 11, 92);
     border-radius: 20px;
     padding-left: 37px;
-    padding-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
